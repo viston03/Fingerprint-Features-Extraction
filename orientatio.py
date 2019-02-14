@@ -30,7 +30,6 @@ def get_line_ends(x, y, tang, block_size, offset=0):
 
 def draw_lines((h, w, c), angles, block_size):
 	im = np.empty((h, w, c), np.uint8)
-	# white background
 	im[:] = 255
 
 	for i in xrange(w/block_size):
